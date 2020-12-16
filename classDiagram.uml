@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="265.7638888888889" y="22.0">org.fraudidentifier.services.helper.CompositeTxKey</node>
+    <node x="10.5" y="379.0">org.fraudidentifier.services.helper.CompositeTxKey.CompositeTxKeyBuilder</node>
+    <node x="1251.0" y="0.0">org.fraudidentifier.models.CCTransaction</node>
+    <node x="1149.0833333333335" y="670.0">org.fraudidentifier.CCTransactionFraudDetector</node>
+    <node x="1129.5" y="357.0">org.fraudidentifier.models.CCTransaction.CCTransactionBuilder</node>
+    <node x="1937.125" y="99.5">org.fraudidentifier.csvreaders.CsvReader</node>
+    <node x="1633.125" y="99.5">org.fraudidentifier.utils.AppUtils</node>
+    <node x="1224.5833333333335" y="807.0">org.fraudidentifier.App</node>
+    <node x="429.5" y="390.5">org.fraudidentifier.services.CCTransactionService</node>
+    <node x="1778.1284722222222" y="357.0">org.fraudidentifier.csvreaders.CCTransactionCsvReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.fraudidentifier.services.CCTransactionService" target="org.fraudidentifier.services.CCTransactionService">
+      <point x="-226.66666666666663" y="83.0" />
+      <point x="542.8333333333334" y="576.5" />
+      <point x="409.5" y="576.5" />
+      <point x="409.5" y="473.5" />
+      <point x="-340.0" y="-0.0" />
+    </edge>
+    <edge source="org.fraudidentifier.services.helper.CompositeTxKey.CompositeTxKeyBuilder" target="org.fraudidentifier.services.helper.CompositeTxKey">
+      <point x="0.0" y="-94.5" />
+      <point x="200.0" y="337.0" />
+      <point x="370.0138888888889" y="337.0" />
+      <point x="-34.75" y="116.5" />
+    </edge>
+    <edge source="org.fraudidentifier.CCTransactionFraudDetector" target="org.fraudidentifier.models.CCTransaction">
+      <point x="22.75" y="-38.5" />
+      <point x="1308.3333333333335" y="630.0" />
+      <point x="1575.0" y="630.0" />
+      <point x="1575.0" y="337.0" />
+      <point x="1496.0" y="337.0" />
+      <point x="70.0" y="138.5" />
+    </edge>
+    <edge source="org.fraudidentifier.csvreaders.CCTransactionCsvReader" target="org.fraudidentifier.csvreaders.CsvReader">
+      <point x="34.25" y="-116.5" />
+      <point x="1949.3784722222222" y="337.0" />
+      <point x="1993.625" y="337.0" />
+      <point x="-56.5" y="39.0" />
+    </edge>
+    <edge source="org.fraudidentifier.services.CCTransactionService" target="org.fraudidentifier.models.CCTransaction">
+      <point x="226.66666666666663" y="-83.0" />
+      <point x="996.1666666666666" y="327.0" />
+      <point x="1356.0" y="327.0" />
+      <point x="-70.0" y="138.5" />
+    </edge>
+    <edge source="org.fraudidentifier.csvreaders.CCTransactionCsvReader" target="org.fraudidentifier.models.CCTransaction">
+      <point x="-102.75" y="-116.5" />
+      <point x="1812.3784722222222" y="327.0" />
+      <point x="1566.0" y="327.0" />
+      <point x="140.0" y="138.5" />
+    </edge>
+    <edge source="org.fraudidentifier.models.CCTransaction" target="org.fraudidentifier.models.CCTransaction">
+      <point x="-140.0" y="138.5" />
+      <point x="1286.0" y="297.0" />
+      <point x="1231.0" y="297.0" />
+      <point x="1231.0" y="138.5" />
+      <point x="-175.0" y="-0.0" />
+    </edge>
+    <edge source="org.fraudidentifier.csvreaders.CCTransactionCsvReader" target="org.fraudidentifier.utils.AppUtils">
+      <point x="-34.25" y="-116.5" />
+      <point x="1880.8784722222222" y="317.0" />
+      <point x="1775.125" y="317.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="org.fraudidentifier.CCTransactionFraudDetector" target="org.fraudidentifier.services.CCTransactionService">
+      <point x="-68.25" y="-38.5" />
+      <point x="1217.3333333333335" y="640.0" />
+      <point x="769.5" y="640.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="org.fraudidentifier.CCTransactionFraudDetector" target="org.fraudidentifier.services.helper.CompositeTxKey">
+      <point x="-113.75" y="-38.5" />
+      <point x="1171.8333333333335" y="650.0" />
+      <point x="0.0" y="650.0" />
+      <point x="0.0" y="327.0" />
+      <point x="300.5138888888889" y="327.0" />
+      <point x="-104.25" y="116.5" />
+    </edge>
+    <edge source="org.fraudidentifier.models.CCTransaction.CCTransactionBuilder" target="org.fraudidentifier.models.CCTransaction">
+      <point x="0.0" y="-116.5" />
+      <point x="1347.0" y="337.0" />
+      <point x="1426.0" y="337.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="org.fraudidentifier.App" target="org.fraudidentifier.App">
+      <point x="0.0" y="38.5" />
+      <point x="1331.0833333333335" y="904.0" />
+      <point x="1204.5833333333335" y="904.0" />
+      <point x="1204.5833333333335" y="845.5" />
+      <point x="-106.5" y="-0.0" />
+    </edge>
+    <edge source="org.fraudidentifier.csvreaders.CCTransactionCsvReader" target="org.fraudidentifier.csvreaders.CCTransactionCsvReader">
+      <point x="-91.33333333333337" y="116.5" />
+      <point x="1823.795138888889" y="610.0" />
+      <point x="1758.1284722222222" y="610.0" />
+      <point x="1758.1284722222222" y="473.5" />
+      <point x="-137.0" y="-0.0" />
+    </edge>
+    <edge source="org.fraudidentifier.CCTransactionFraudDetector" target="org.fraudidentifier.CCTransactionFraudDetector">
+      <point x="-91.0" y="38.5" />
+      <point x="1194.5833333333335" y="767.0" />
+      <point x="1129.0833333333335" y="767.0" />
+      <point x="1129.0833333333335" y="708.5" />
+      <point x="-136.5" y="-0.0" />
+    </edge>
+    <edge source="org.fraudidentifier.App" target="org.fraudidentifier.CCTransactionFraudDetector">
+      <point x="-53.25" y="-38.5" />
+      <point x="1277.8333333333335" y="787.0" />
+      <point x="1285.5833333333335" y="787.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.fraudidentifier.services.CCTransactionService" target="org.fraudidentifier.services.helper.CompositeTxKey">
+      <point x="-226.66666666666663" y="-83.0" />
+      <point x="542.8333333333334" y="337.0" />
+      <point x="439.5138888888889" y="337.0" />
+      <point x="34.75" y="116.5" />
+    </edge>
+    <edge source="org.fraudidentifier.CCTransactionFraudDetector" target="org.fraudidentifier.csvreaders.CCTransactionCsvReader">
+      <point x="68.25" y="-38.5" />
+      <point x="1353.8333333333335" y="640.0" />
+      <point x="1915.1284722222222" y="640.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8598901098901099" x="1082.0" y="452.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
